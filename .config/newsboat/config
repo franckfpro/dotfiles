@@ -1,0 +1,22 @@
+delete-read-articles-on-quit    yes
+auto-reload                     yes
+refresh-on-startup              yes
+confirm-mark-feed-read no
+
+#browser "firefox %u &"
+browser "flatpak run com.github.unrud.VideoDownloader -u %u & 2>> /dev/null"
+#macro d set browser "flatpak run com.github.unrud.VideoDownloader -u %u" ; open-in-browser ; set browser ""
+#macro l set browser "echo %u >> ~/rss-list" ; open-in-browser ; set browser ""
+
+#color background         default   default
+#color listnormal         default   default
+#color listnormal_unread  default   default
+#color listfocus          black     yellow
+#color listfocus_unread   black     yellow
+#color info               default   black
+#color article            default   default
+
+# highlights
+#highlight article "^(Title):.*$" blue default
+#highlight article "https?://[^ ]+" red default
+#highlight article "\\[image\\ [0-9]+\\]" green default

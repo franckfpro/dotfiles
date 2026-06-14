@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=fn newsboat
+Exec=gnome-terminal --maximize -- newsboat
+Type=Application
+Icon=utilities-terminal

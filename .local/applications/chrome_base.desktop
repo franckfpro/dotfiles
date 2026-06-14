@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=fc chrome base
+Exec=flatpak run com.google.Chrome --password-store=basic
+Type=Application
+Icon=com.google.Chrome

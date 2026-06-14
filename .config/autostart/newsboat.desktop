@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=fn newsboat
+Comment=Launches the rss reader
+Icon=utilities-terminal
+Exec=gnome-terminal --maximize -- newsboat
+Terminal=true
+Categories=ConsoleOnly;System;FileTools
+MimeType=inode/directory;
+X-GNOME-Autostart-enabled=true

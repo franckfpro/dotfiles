@@ -1,0 +1,17 @@
+[user]
+    name = franckfpro
+    email = 
+[core]
+    editor = "nvim"
+    tool = "nvim -d"
+[color]
+    ui = auto
+[format]
+    pretty = oneline
+[alias]
+    lp = log --pretty=medium
+    difw = diff --color-words
+    st = status
+    ll = log --graph --decorate --oneline
+[diff]
+    tool = "nvim -d"
