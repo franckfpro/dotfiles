@@ -21,7 +21,13 @@ flatpak install --assumeyes flathub com.vscodium.codium
 flatpak install --assumeyes flathub io.mpv.Mpv
 flatpak install --assumeyes flathub io.neovim.nvim
 
-apt install --assume-yes ranger
+#pip install ranger-fm
+#pipx run --spec ranger-fm ranger
+#git clone https://github.com/ranger/ranger
+#wget https://ranger.fm/ranger-stable.tar.gz
+#tar xvf ranger-stable.tar.gz
+#cd ranger-stable
+#./ranger.py
 
 select-editor
 
