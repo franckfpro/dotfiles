@@ -13,11 +13,11 @@ flatpak remote-add --if-not-exists fedora oci+https://registry.fedoraproject.org
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install --assumeyes fedora com.github.tchx84.Flatseal
 flatpak install --assumeyes fedora org.chromium.Chromium
-flatpak install --assumeyes fedora org.gabmus.gfeeds
 flatpak install --assumeyes fedora org.keepassxc.KeePassXC
 flatpak install --assumeyes fedora org.vim.Vim
 flatpak install --assumeyes flathub com.github.unrud.VideoDownloader
 flatpak install --assumeyes flathub com.vscodium.codium
+flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
 flatpak install --assumeyes flathub io.mpv.Mpv
 flatpak install --assumeyes flathub io.neovim.nvim
 
