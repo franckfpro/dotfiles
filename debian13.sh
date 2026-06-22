@@ -18,11 +18,9 @@ flatpak install --assumeyes fedora org.keepassxc.KeePassXC
 flatpak install --assumeyes fedora org.vim.Vim
 flatpak install --assumeyes flathub com.github.unrud.VideoDownloader
 flatpak install --assumeyes flathub com.vscodium.codium
-flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
 flatpak install --assumeyes flathub io.mpv.Mpv
 flatpak install --assumeyes flathub io.neovim.nvim
 
-apt install --assume-yes newsboat
 apt install --assume-yes ranger
 
 select-editor
