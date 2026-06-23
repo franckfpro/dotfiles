@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=fc chromium base
-Exec=chromium --password-store=basic --profile-directory="Base" %U
-Type=Application
-Icon=chromium
