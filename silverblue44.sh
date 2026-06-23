@@ -59,3 +59,6 @@ MimeType=inode/directory;
 X-GNOME-Autostart-enabled=true
 " > ~/.config/autostart/ranger.desktop
 
+# middle click
+gsettings set org.gnome.desktop.interface gtk-enable-primary-paste true
+
