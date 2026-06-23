@@ -52,7 +52,6 @@ handle_extension() {
         ## Archive
         a|ace|alz|arc|arj|bz|bz2|cab|cpio|deb|gz|jar|lha|lz|lzh|lzma|lzo|\
         rpm|rz|t7z|tar|tbz|tbz2|tgz|tlz|txz|tZ|tzo|war|xpi|xz|Z|zip)
-            zipinfo -- "${FILE_PATH}" && exit 5
             atool --list -- "${FILE_PATH}" && exit 5
             bsdtar --list --file "${FILE_PATH}" && exit 5
             exit 1;;
@@ -155,11 +154,10 @@ handle_image() {
             exit 7;;
 
         ## Video
-        video/*)
-            # Thumbnail
-            mediainfo "${FILE_PATH}" && exit 5
-            ffmpegthumbnailer -i "${FILE_PATH}" -o "${IMAGE_CACHE_PATH}" -s 0 && exit 6
-            exit 1;;
+        # video/*)
+        #     # Thumbnail
+        #     ffmpegthumbnailer -i "${FILE_PATH}" -o "${IMAGE_CACHE_PATH}" -s 0 && exit 6
+        #     exit 1;;
 
         ## PDF
         # application/pdf)
@@ -330,7 +328,6 @@ handle_mime() {
         ## Video and audio
         video/* | audio/*)
             mediainfo "${FILE_PATH}" && exit 5
-            ffprobe "${FILE_PATH}" 2>&1 | grep -A90 'Metadata:' && exit 5
             exiftool "${FILE_PATH}" && exit 5
             exit 1;;
     esac
@@ -338,6 +335,7 @@ handle_mime() {
 
 handle_fallback() {
     echo '----- File Type Classification -----' && file --dereference --brief -- "${FILE_PATH}" && exit 5
+    exit 1
 }
 
 
