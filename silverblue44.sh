@@ -3,6 +3,7 @@
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install --assumeyes fedora com.github.tchx84.Flatseal
 flatpak install --assumeyes fedora org.keepassxc.KeePassXC
+flatpak install --assumeyes fedora org.chromium.Chromium
 flatpak install --assumeyes flathub com.github.unrud.VideoDownloader
 flatpak install --assumeyes flathub com.google.Chrome
 flatpak install --assumeyes flathub com.vscodium.codium
@@ -46,6 +47,7 @@ tar xvf ranger-stable.tar.gz
 mkdir ~/.config/autostart
 cp /var/lib/flatpak/app/io.gitlab.news_flash.NewsFlash/current/active/export/share/applications/io.gitlab.news_flash.NewsFlash.desktop ~/.config/autostart/
 cp /var/lib/flatpak/app/io.github.ungoogled_software.ungoogled_chromium/current/active/export/share/applications/io.github.ungoogled_software.ungoogled_chromium.desktop ~/.config/autostart/
+cp /var/lib/flatpak/app/org.chromium.Chromium/current/active/export/share/applications/org.chromium.Chromium.desktop ~/.config/autostart/
 
 echo "
 [Desktop Entry]
