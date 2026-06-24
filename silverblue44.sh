@@ -3,6 +3,8 @@
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install --assumeyes fedora com.github.tchx84.Flatseal
 flatpak install --assumeyes fedora org.keepassxc.KeePassXC
+flatpak install --assumeyes fedora org.gnome.Papers
+flatpak install --assumeyes fedora org.gnome.Loupe
 flatpak install --assumeyes flathub com.github.unrud.VideoDownloader
 flatpak install --assumeyes flathub com.google.Chrome
 flatpak install --assumeyes flathub com.vscodium.codium
