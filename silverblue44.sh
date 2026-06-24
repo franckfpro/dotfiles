@@ -49,18 +49,6 @@ mkdir ~/.config/autostart
 cp /var/lib/flatpak/app/io.gitlab.news_flash.NewsFlash/current/active/export/share/applications/io.gitlab.news_flash.NewsFlash.desktop ~/.config/autostart/
 cp /var/lib/flatpak/app/com.brave.Browser/current/active/export/share/applications/com.brave.Browser.desktop ~/.config/autostart/
 
-echo "
-[Desktop Entry]
-Type=Application
-Name= ranger
-Comment=Launches the ranger file manager
-Icon=utilities-terminal
-Exec=ptyxis --maximize -- ~/.ranger/ranger-1.9.4/ranger.py
-Categories=ConsoleOnly;System;FileTools;FileManager
-MimeType=inode/directory;
-X-GNOME-Autostart-enabled=true
-" > ~/.config/autostart/ranger.desktop
-
 # middle click
 gsettings set org.gnome.desktop.interface gtk-enable-primary-paste true
 
