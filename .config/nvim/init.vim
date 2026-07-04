@@ -64,7 +64,7 @@ set number
 set relativenumber
 
 " Colorscheme
-colorscheme desert
+colorscheme gruvbox
 
 " Always show status bar
 set laststatus=2
