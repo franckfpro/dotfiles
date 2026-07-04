@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Brave
+Exec=flatpak run com.brave.Browser --password-store=basic
+Icon=com.brave.Browser
+Type=Application

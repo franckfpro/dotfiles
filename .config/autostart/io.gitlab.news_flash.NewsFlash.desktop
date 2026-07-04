@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=NewsflashType=Application
+Exec=flatpak run io.gitlab.news_flash.NewsFlash
+Icon=io.gitlab.news_flash.NewsFlash
+Type=Application

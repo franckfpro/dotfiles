@@ -118,19 +118,10 @@ mp3url=$(curl $1 | grep mp3 | cut -d'"' -f4)
 wget $mp3url -O $(date +%F).mp3
 }
 
-fbright ()
-{
-xrandr --output eDP --brightness $1
-}
-
 alias ll="ls -lash"
-alias fn="newsboat 2>> /dev/null"
 alias fr="ranger"
 alias vi="nvim -p"
-alias ydl="nice -n 16 yt-dlp --write-auto-sub --add-metadata -ic"
-alias aydl="yt-dlp --extract-audio -f bestaudio/best"
 alias pvenv="python3 -m venv .venv && source .venv/bin/activate"
-alias code="flatpak run com.vscodium.codium"
 
 export EDITOR='nvim'
 export PS1="\n \A \w\n "

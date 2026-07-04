@@ -12,27 +12,26 @@ apt install --assume-yes flatpak
 flatpak remote-add --if-not-exists fedora oci+https://registry.fedoraproject.org
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install --assumeyes fedora com.github.tchx84.Flatseal
-flatpak install --assumeyes fedora org.chromium.Chromium
 flatpak install --assumeyes fedora org.keepassxc.KeePassXC
-flatpak install --assumeyes fedora org.vim.Vim
 flatpak install --assumeyes flathub com.github.unrud.VideoDownloader
-flatpak install --assumeyes flathub com.vscodium.codium
 flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
-flatpak install --assumeyes flathub io.mpv.Mpv
-flatpak install --assumeyes flathub io.neovim.nvim
+flatpak install --assumeyes flathub com.brave.Browser
+flatpak install --assumeyes org.freedesktop.Platform.GStreamer.gstreamer-vaapi
+flatpak install --assumeyes org.freedesktop.Platform.ffmpeg-full
 
-#pip install ranger-fm
-#pipx run --spec ranger-fm ranger
-#git clone https://github.com/ranger/ranger
-#wget https://ranger.fm/ranger-stable.tar.gz
-#tar xvf ranger-stable.tar.gz
-#cd ranger-stable
-#./ranger.py
+apt install --assume-yes neovim
+apt install --assume-yes ranger
+apt install --assume-yes ffmpeg
+apt install --assume-yes mpv
+apt install --assume-yes uv
 
 select-editor
 
 apt autoremove --assume-yes
 apt autoclean --assume-yes
+
+# middle click gnome 50
+# gsettings set org.gnome.desktop.interface gtk-enable-primary-paste true
 
 sed --in-place 's/GRUB_TIMEOUT=5/GRUB_TIMEOUT=1/g' /etc/default/grub
 update-grub

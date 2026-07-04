@@ -17,12 +17,10 @@ settings.json
 
 extensions
 ```
-flatpak run com.vscodium.codium --install-extension ms-python.autopep8
 flatpak run com.vscodium.codium --install-extension ms-python.black-formatter
 flatpak run com.vscodium.codium --install-extension ms-python.python
 flatpak run com.vscodium.codium --install-extension ms-python.debugpy
 flatpak run com.vscodium.codium --install-extension ms-python.vscode-python-envs
-flatpak run com.vscodium.codium --install-extension charliermarsh.ruff
 flatpak run com.vscodium.codium --install-extension vscodevim.vim
 ```
 
@@ -31,4 +29,3 @@ flatpak run com.vscodium.codium --install-extension vscodevim.vim
 ```
 chromium --password-store=basic
 ```
-

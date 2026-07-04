@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Ranger
+Exec=gnome-terminal --maximize -- ranger
+Icon=utilities-terminal
+Type=Application
