@@ -16,6 +16,7 @@ flatpak install --assumeyes fedora org.keepassxc.KeePassXC
 flatpak install --assumeyes flathub com.github.unrud.VideoDownloader
 flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
 flatpak install --assumeyes flathub com.brave.Browser
+flatpak install --assumeyes flathub com.google.Chrome
 flatpak install --assumeyes org.freedesktop.Platform.GStreamer.gstreamer-vaapi
 flatpak install --assumeyes org.freedesktop.Platform.ffmpeg-full
 
@@ -23,7 +24,7 @@ apt install --assume-yes neovim
 apt install --assume-yes ranger
 apt install --assume-yes ffmpeg
 apt install --assume-yes mpv
-apt install --assume-yes uv
+apt install --assume-yes git
 
 select-editor
 
