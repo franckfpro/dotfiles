@@ -920,6 +920,55 @@ class mkdir(Command):
     def tab(self, tabnum):
         return self._tab_directory_content()
 
+class mkcd(Command):
+    """:mkcd <dirname>
+
+    Creates a directory with the name <dirname> and moves all selected files into it.
+    """;
+
+    def execute(self):
+        from os.path import join, expanduser, lexists, basename
+        from os import makedirs
+        import shutil
+
+        # 1. Récupérer le nom du dossier à créer
+        dirname = join(self.fm.thisdir.path, expanduser(self.rest(1)))
+
+        # 2. Récupérer la sélection AVANT de créer le dossier 
+        # (sinon la sélection risque de se réinitialiser sur le nouveau dossier)
+        selected_files = self.fm.thistab.get_selection()
+
+        if not selected_files:
+            self.fm.notify("No files selected!", bad=True)
+            return
+
+        # 3. Créer le dossier s'il n'existe pas
+        if not lexists(dirname):
+            try:
+                makedirs(dirname)
+            except Exception as e:
+                self.fm.notify(f"Failed to create directory: {e}", bad=True)
+                return
+        else:
+            # Si le dossier existe déjà, on peut quand même vouloir y déplacer les fichiers
+            # On prévient simplement l'utilisateur
+            self.fm.notify("Directory already exists, moving files inside...", bad=False)
+
+        # 4. Déplacer les fichiers sélectionnés
+        for f in selected_files:
+            # f.path contient le chemin absolu du fichier sélectionné
+            dest = join(dirname, basename(f.path))
+            try:
+                shutil.move(f.path, dest)
+            except Exception as e:
+                self.fm.notify(f"Error moving {f.basename}: {e}", bad=True)
+
+        # 5. Rafraîchir l'affichage de Ranger pour voir les changements
+        self.fm.thistab.unselect_all()
+        self.fm.refresh_table()
+
+    def tab(self, tabnum):
+        return self._tab_directory_content()
 
 class touch(Command):
     """:touch <fname>

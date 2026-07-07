@@ -1,6 +1,6 @@
 [user]
     name = franckfpro
-    email = 
+    email = franckfpro@localhost.lan
 [core]
     editor = "nvim"
     tool = "nvim -d"
