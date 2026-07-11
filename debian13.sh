@@ -28,6 +28,9 @@ apt install --assume-yes git
 
 select-editor
 
+apt remove libreoffice-help-*
+apt remove libreoffice-l10n-*
+
 apt autoremove --assume-yes
 apt autoclean --assume-yes
 
