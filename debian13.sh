@@ -30,6 +30,7 @@ select-editor
 
 apt remove libreoffice-help-*
 apt remove libreoffice-l10n-*
+apt remove $(apt list --installed | grep firefox-esr-l10n | grep -v firefox-esr-l10n-fr | cut -d'/' -f1)
 
 apt autoremove --assume-yes
 apt autoclean --assume-yes
