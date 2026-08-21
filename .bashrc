@@ -126,3 +126,5 @@ alias pvenv="python3 -m venv .venv && source .venv/bin/activate"
 export EDITOR='nvim'
 export PS1="\n \A \w\n "
 #export PS1="> "
+
+export PATH=$PATH:/home/user/.local/bin

@@ -1,177 +1,90 @@
-"""""""""""""""""""""""""""
-" GENERALS
-"""""""""""""""""""""""""""
+" ============================================================================
+" 1. CONFIGURATION SYSTEME & APPARENCE
+" ============================================================================
+set number                  " Affiche les numéros de ligne
+set relativenumber          " Numérotation relative pour les sauts verticaux
+set mouse=a                 " Active la souris dans tous les modes
+set clipboard=unnamedplus   " Presse-papier système (nécessite xclip/wl-clipboard)
+set syntax=on               " Coloration syntaxique
+set termguicolors           " Couleurs 24-bit
+set encoding=utf-8          " Encodage universel
+set hidden                  " Permet de masquer un buffer sans le sauvegarder
+set laststatus=2            " Force l'affichage de la barre d'état (statusline)
 
-" Sets how many lines of history
-set history=50
+colorscheme retrobox
 
-" Enable syntax highlighting
-syntax enable
+" ============================================================================
+" 2. INDENTATION & COMPORTEMENT
+" ============================================================================
+set expandtab               " Espaces à la place des tabulations
+set tabstop=4               " Largeur d'une tabulation
+set shiftwidth=4            " Taille de l'indentation automatique
+set autoindent              " Conserve l'indentation précédente
+set smartindent             " Indentation intelligente
 
-" Charaters coding
-set encoding=utf8
-set fileencoding=utf8
+" ============================================================================
+" 3. RECHERCHE & PERFORMANCE
+" ============================================================================
+set hlsearch                " Surligne les recherches
+set incsearch               " Recherche incrémentale
+set ignorecase              " Ignore la casse...
+set smartcase               " ...sauf si une majuscule est tapée
+set scrolloff=8             " Marge de 8 lignes en défilement vertical
+set wildmenu                " Menu d'autocomplétion des commandes amélioré
 
-" Use Vim defaults
-set nocompatible
-set scrolloff=15
+" ============================================================================
+" 4. CONFIGURATION DE LA STATUSLINE (BARRE D'ÉTAT) NATIVE
+" ============================================================================
+" On nettoie la statusline existante
+set statusline=
 
-" Dialogue asking if you wish to save
-set confirm
+" Section GAUCHE
+set statusline+=%#Visual#\                   " Groupe de couleur (Inversé/Visual)
+set statusline+=%#StatusLine#\               " Retour au style standard
 
-" Transform ; to : for mistakes and SPACE to : for your health
-map ; :
-map <Space> :
+set statusline+=\ %f                         " Chemin du fichier (relatif)
+set statusline+=%m                           " Indicateur de modification [+]
+set statusline+=%r                           " Indicateur de lecture seule [RO]
+set statusline+=%h                           " Indicateur d'aide [Help]
+set statusline+=%w                           " Indicateur de prévisualisation [Preview]
 
-" Easier change mode (or ^c)
-imap jj <Esc>
-nmap <Space><Space> i
+" Séparateur (pousse le reste du texte à droite)
+set statusline+=%=
 
-" Escape terminal (or ^z - fg)
-tmap <Esc> <C-\><C-n>
+" Section DROITE
+set statusline+=%#StatusLineNC#              " Style légèrement contrasté
+set statusline+=\ %Y\                        " Type de fichier (Python, Bash, etc.)
+set statusline+=\ [%{&fileformat}]           " Format de fin de ligne (unix, dos)
+set statusline+=\ [%{&fileencoding?&fileencoding:&encoding}] " Encodage
+set statusline+=\ %#Visual#                  " Groupe de couleur pour les coordonnées
+set statusline+=\ %l/%L                      " Ligne courante / Total des lignes
+set statusline+=\ :\ %c\                     " Colonne courante
 
-" No swap file
-set noswapfile
-set nobackup
+" ============================================================================
+" 5. RACCOURCIS CLAVIERS & REMPLACEMENTS DE PLUGINS
+" ============================================================================
+let mapleader = " "
 
-" Folds
-set nofoldenable
-set foldmethod=indent
+" Nettoyer le surlignage de la recherche (Espace + h)
+nnoremap <Leader>h :nohlsearch<CR>
 
-" Save on each command who lose focus
-set autowrite
+" Navigation entre les fenêtres (Ctrl + hjkl)
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
-if has("autocmd")
-  " When editing a file, always jump to the last cursor position
-  autocmd BufReadPost *
-  \ if line("'\"") > 0 && line ("'\"") <= line("$") |
-  \   exe "normal! g'\"" |
-  \ endif
-endif
+" Remplacer NERDTree par Netrw (l'explorateur natif de Vim/Neovim)
+" - :Ex ouvre l'explorateur dans le buffer courant
+" - <Leader>e ouvre l'explorateur en mode 'Vsplit' à gauche (largeur 30)
+let g:netrw_banner = 0       " Masque la bannière d'aide inutile en haut
+let g:netrw_liststyle = 3    " Affichage en arbre (comme NERDTree)
+let g:netrw_winsize = 25     " Prend 25% de l'écran lors d'un split
+nnoremap <Leader>e :Lexplore<CR>
 
-"""""""""""""""""""""""""""
-" INTERFACE
-"""""""""""""""""""""""""""
-
-" Small wraping
-""set textwidth=79
-"set formatoptions+=t
-
-" Show relative lines number
-set signcolumn=yes
-set colorcolumn=79
-set number
-set relativenumber
-
-" Colorscheme
-colorscheme gruvbox
-
-" Always show status bar
-set laststatus=2
-set statusline=                                                "clear the statusline
-set statusline+=%<\                                            "cut at start
-set statusline+=\ %m                                           "modified flag
-set statusline+=\ @>%F                                         "full path name
-set statusline+=\ %h                                           "help file flag
-set statusline+=\ %r                                           "read only flag
-set statusline+=\ %w                                           "windows flag
-set statusline+=%=                                             "right separator
-set statusline+=\ %p%%                                         "percentage of document
-set statusline+=\ LIN>%l/%L                                    "cursor line/total lines
-set statusline+=\ COL>%c                                       "cursor column
-set statusline+=\ ENC>%{&fileencoding?&fileencoding:&encoding} "fileencoding
-set statusline+=\[%{&fileformat}\]
-set statusline+=\ TYP>%y                                       "filetype
-set statusline+=\ %{strftime(\"%H:%M\")}                       "time
-set statusline+=\                                              "end space
-
-" Always show current position
-set ruler
-
-" Always wrap long lines
-set wrap linebreak
-" Or not
-"set nowrap
-
-" Enable mouse cursor
-set mouse=a
-
-" Show current line in LineNbr bar
-set cursorline
-set cursorcolumn
-
-"""""""""""""""""""""""""""
-" EXPLORER
-"""""""""""""""""""""""""""
-
-" Tree view in netrw explorer
-let g:netrw_liststyle = 3
-
-" Width of the directory explorer
-let g:netrw_winsize = 50
-
-" No banner
-let g:netrw_banner = 0
-
-" Search down into subfolders
-set path+=**
-
-" Display all matching files when we tab complete
-set wildmenu
-
-"""""""""""""""""""""""""""
-" SPLITS
-"""""""""""""""""""""""""""
-
-set splitbelow
-set splitright
-
-" Switching windows
-noremap <C-j> <C-w>j
-noremap <C-k> <C-w>k
-noremap <C-l> <C-w>l
-noremap <C-h> <C-w>h
-
-"""""""""""""""""""""""""""
-" INDENTATION
-"""""""""""""""""""""""""""
-
-" Use spaces instead of tabs
-set expandtab
-set smarttab
-
-" 1 tab == 4 spaces
-set shiftwidth=4
-set tabstop=4
-
-" Auto indent
-set autoindent
-set smartindent
-
-" Allow backspacing in insert mode
-set backspace=indent,eol,start
-
-" Indent in Visual mode
-vmap < <gv
-vmap > >gv
-
-"""""""""""""""""""""""""""
-" SEARCHING
-"""""""""""""""""""""""""""
-
-" Highlight search results
-set hlsearch
-
-" Incremental search
-set incsearch
-
-" Ignore case when searching
-set ignorecase
-
-"""""""""""""""""""""""""""
-" CODING HELPS
-"""""""""""""""""""""""""""
-
+" ============================================================================
+" 6. DIVERS
+" ============================================================================
 set list
 
 " Highlight match parentheses
@@ -184,25 +97,23 @@ inoremap [ []<Esc>:let leavechar="]"<CR>i
 inoremap { {}<Esc>:let leavechar="}"<CR>i
 inoremap < <><Esc>:let leavechar=">"<CR>i
 inoremap " ""<Esc>:let leavechar='"'<CR>i
-"inoremap ' ''<Esc>:let leavechar="'"<CR>i
+inoremap ' ''<Esc>:let leavechar="'"<CR>i
 inoremap ` ``<Esc>:let leavechar="`"<CR>i
 
-command! FixWhitespace :%s/\s\+$//e
-command! GoRun  :!go run %
-command! GoTest :!go test
-command! GoFmt  :!gofmt -w %
+" Save on each command who lose focus
+set autowrite
 
-" Map leader to comma
-let mapleader = ","
-map <leader>r :GoRun %<CR>
-map <leader>i :GoDoc <CR>
-map <leader>e :Lexplore <CR>
-map <leader>t :tabnew . <CR>
-" make run ?
+if has("autocmd")
+  " When editing a file, always jump to the last cursor position
+  autocmd BufReadPost *
+  \ if line("'\"") > 0 && line ("'\"") <= line("$") |
+  \   exe "normal! g'\"" |
+  \ endif
+endif
 
-"""""""""""""""""""""""""""
+" ============================================================================
 " KEYS MAPPING
-"""""""""""""""""""""""""""
+" ============================================================================
 
 " Copy visual selection
 vmap <C-c> "+y
@@ -226,11 +137,8 @@ cnoreabbrev Qall qall
 " Tabs
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
-nnoremap <silent> <S-t> :tabnew<CR>
 
-" Move visual block
-vnoremap J :m '>+1<CR>gv=gv
-vnoremap K :m '<-2<CR>gv=gv
+" Indent in Visual mode
+vmap < <gv
+vmap > >gv
 
-" INSTALL PLUGINS
-" git clone https://github.com/fatih/vim-go.git ~/.local/share/nvim/site/pack/plugins/start/vim-go

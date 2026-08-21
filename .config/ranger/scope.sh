@@ -321,13 +321,13 @@ handle_mime() {
         ## Image
         image/*)
             ## Preview as text conversion
-            # img2txt --gamma=0.6 --width="${PV_WIDTH}" -- "${FILE_PATH}" && exit 4
+            img2txt --gamma=0.6 --width="${PV_WIDTH}" -- "${FILE_PATH}" && exit 4
             exiftool "${FILE_PATH}" && exit 5
             exit 1;;
 
         ## Video and audio
         video/* | audio/*)
-            ffprobe "${FILE_PATH}" && exit 5
+            ffprobe "${FILE_PATH}" 2>&1 | grep -A90 'Metadata:' && exit 5
             mediainfo "${FILE_PATH}" && exit 5
             exiftool "${FILE_PATH}" && exit 5
             exit 1;;
