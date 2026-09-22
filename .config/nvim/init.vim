@@ -52,22 +52,6 @@ set shiftwidth=4
 set showmatch
 set smartcase
 set smartindent
-set statusline=
-set statusline+=%#Visual#\
-set statusline+=%#StatusLine#\
-set statusline+=\ %f
-set statusline+=%m
-set statusline+=%r
-set statusline+=%h
-set statusline+=%w
-set statusline+=%=
-set statusline+=%#StatusLineNC#
-set statusline+=\ %Y\
-set statusline+=\ [%{&fileformat}]
-set statusline+=\ [%{&fileencoding?&fileencoding:&encoding}]
-set statusline+=\ %#Visual#
-set statusline+=\ %l/%L
-set statusline+=\ :\ %c\
 set syntax=on
 set tabstop=4
 set termguicolors
