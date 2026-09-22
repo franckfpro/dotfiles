@@ -13,10 +13,12 @@ flatpak remote-add --if-not-exists fedora oci+https://registry.fedoraproject.org
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install --assumeyes fedora com.github.tchx84.Flatseal
 flatpak install --assumeyes fedora org.keepassxc.KeePassXC
+flatpak install --assumeyes fedora org.chromium.Chromium
 flatpak install --assumeyes flathub com.github.unrud.VideoDownloader
 flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
 flatpak install --assumeyes flathub com.brave.Browser
 flatpak install --assumeyes flathub com.google.Chrome
+flatpak install --assumeyes flathub md.obsidian.Obsidian
 flatpak install --assumeyes org.freedesktop.Platform.GStreamer.gstreamer-vaapi
 flatpak install --assumeyes org.freedesktop.Platform.ffmpeg-full
 
@@ -25,6 +27,9 @@ apt install --assume-yes ranger
 apt install --assume-yes ffmpeg
 apt install --assume-yes mpv
 apt install --assume-yes git
+apt install --assume-yes i3
+apt install --assume-yes rofi
+apt install --assume-yes pulseaudio-utils
 
 select-editor
 
@@ -41,7 +46,8 @@ apt autoclean --assume-yes
 sed --in-place 's/GRUB_TIMEOUT=5/GRUB_TIMEOUT=1/g' /etc/default/grub
 update-grub
 
-# Cette option déverrouille le trousseau en permanence. Tes mots de passe enregistrés ne seront plus chiffrés sur le disque, mais tu ne recevras plus aucune demande d'authentification.
+# Cette option déverrouille le trousseau en permanence.
+# Tes mots de passe enregistrés ne seront plus chiffrés sur le disque, mais tu ne recevras plus aucune demande d'authentification.
 # - Ouvre l'application Mots de passe et clés (Seahorse). Si elle n'est pas installée, lance: sudo apt install seahorse
 # - Dans le panneau latéral gauche, clique droit sur le trousseau Connexion (ou login).
 # - Choisis Changer le mot de passe.
