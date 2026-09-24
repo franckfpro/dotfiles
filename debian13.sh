@@ -16,7 +16,6 @@ flatpak install --assumeyes fedora org.keepassxc.KeePassXC
 flatpak install --assumeyes fedora org.chromium.Chromium
 flatpak install --assumeyes flathub com.github.unrud.VideoDownloader
 flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
-flatpak install --assumeyes flathub com.brave.Browser
 flatpak install --assumeyes flathub com.google.Chrome
 flatpak install --assumeyes flathub md.obsidian.Obsidian
 flatpak install --assumeyes org.freedesktop.Platform.GStreamer.gstreamer-vaapi
