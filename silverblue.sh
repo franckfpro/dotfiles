@@ -40,3 +40,4 @@ rpm-ostree override remove ffmpeg-free libavcodec-free libavdevice-free libavfil
 #Si tu veux seulement la lecture vidéo dans Firefox et les applications Flatpak, il est souvent préférable de conserver `ffmpeg-free` et d’ajouter le codec RPM Fusion :
 #rpm-ostree install libavcodec-freeworld
 
+echo "WaylandEnable=False" >> /etc/gdm/custom.conf
