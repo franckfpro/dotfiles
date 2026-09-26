@@ -40,7 +40,7 @@ apt remove $(apt list --installed | grep firefox-esr-l10n | grep -v firefox-esr-
 apt autoremove --assume-yes
 apt autoclean --assume-yes
 
-# middle click gnome 50
+# gsettings set org.gnome.settings-daemon.plugins.housekeeping donation-reminder-enabled 'false'
 # gsettings set org.gnome.desktop.interface gtk-enable-primary-paste true
 
 sed --in-place 's/GRUB_TIMEOUT=5/GRUB_TIMEOUT=1/g' /etc/default/grub

@@ -41,3 +41,6 @@ rpm-ostree override remove ffmpeg-free libavcodec-free libavdevice-free libavfil
 #rpm-ostree install libavcodec-freeworld
 
 echo "WaylandEnable=False" >> /etc/gdm/custom.conf
+
+gsettings set org.gnome.settings-daemon.plugins.housekeeping donation-reminder-enabled 'false'
+gsettings set org.gnome.desktop.interface gtk-enable-primary-paste true
