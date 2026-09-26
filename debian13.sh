@@ -13,13 +13,14 @@ flatpak remote-add --if-not-exists fedora oci+https://registry.fedoraproject.org
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install --assumeyes fedora com.github.tchx84.Flatseal
 flatpak install --assumeyes fedora org.keepassxc.KeePassXC
-flatpak install --assumeyes fedora org.chromium.Chromium
+flatpak install --assumeyes flathub org.chromium.Chromium
 flatpak install --assumeyes flathub com.github.unrud.VideoDownloader
 flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
 flatpak install --assumeyes flathub com.google.Chrome
 flatpak install --assumeyes flathub md.obsidian.Obsidian
 flatpak install --assumeyes org.freedesktop.Platform.GStreamer.gstreamer-vaapi
 flatpak install --assumeyes org.freedesktop.Platform.ffmpeg-full
+flatpak install --assumeyes org.freedesktop.Platform.codecs-extra
 
 apt install --assume-yes neovim
 apt install --assume-yes ranger
