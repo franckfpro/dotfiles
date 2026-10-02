@@ -40,12 +40,13 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 default_border pixel
-exec --no-startup-id             i3-msg "workspace number $ws1" && gnome-terminal -- ranger
+exec --no-startup-id sleep 1s && i3-msg "workspace number $ws1" && xfce4-terminal -x ranger
 exec --no-startup-id nm-applet
+exec --no-startup-id xfce4-power-manager
 exec --no-startup-id sleep 5s && i3-msg "workspace number $ws2" && flatpak run io.gitlab.news_flash.NewsFlash
 exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
 floating_modifier $mod
-font pango:monospace 12
+font pango:FreeMono Bold 14
 hide_edge_borders smart
 set $mod Mod4
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -64,6 +65,6 @@ workspace_auto_back_and_forth yes
 bar {
         status_command i3status
         position top
-        separator_symbol "     "
+        separator_symbol " - "
         workspace_min_width 50
 }

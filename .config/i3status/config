@@ -1,5 +1,5 @@
 general {
-        colors = false
+        colors = true
         interval = 60
 }
 
@@ -11,6 +11,7 @@ order += "read_file vide"
 
 battery all {
         format = "%status %percentage %remaining"
+        format_percentage = "%.00f%s"
 }
 
 volume master {
