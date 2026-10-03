@@ -30,6 +30,7 @@ apt install --assume-yes git
 apt install --assume-yes i3
 apt install --assume-yes rofi
 apt install --assume-yes pulseaudio-utils
+apt install --assume-yes gvfs-backends gvfs-fuse thunar-volman
 
 select-editor
 
