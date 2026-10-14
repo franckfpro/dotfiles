@@ -56,9 +56,7 @@ set syntax=on
 set tabstop=4
 set termguicolors
 set wildmenu
-vmap < <gv
 vmap <C-c> "+y
-vmap > >gv
 
 if has("autocmd")
   autocmd BufReadPost *
