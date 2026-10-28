@@ -120,6 +120,8 @@ wget $mp3url -O $(date +%F).mp3
 
 alias ll="ls -lash"
 alias fr="ranger"
+alias fbulk="python3 ~/Documents/utils/bulkrename.py"
+alias fupg="sudo apt update && sudo apt dist-upgrade && flatpak update"
 alias vi="nvim -p"
 alias pvenv="python3 -m venv .venv && source .venv/bin/activate"
 
