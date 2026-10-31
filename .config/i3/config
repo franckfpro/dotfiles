@@ -40,10 +40,11 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
 default_border pixel
-exec --no-startup-id sleep 1s && i3-msg "workspace number $ws1" && xfce4-terminal -x ranger
 exec --no-startup-id nm-applet
+exec --no-startup-id sleep  1s && i3-msg "workspace number $ws1" && xfce4-terminal -x ranger
+exec --no-startup-id sleep  5s && i3-msg "workspace number $ws2" && flatpak run io.gitlab.news_flash.NewsFlash
+exec --no-startup-id sleep 10s && i3-msg "workspace number $ws3" && flatpak run md.obsidian.Obsidian
 exec --no-startup-id xfce4-power-manager
-exec --no-startup-id sleep 5s && i3-msg "workspace number $ws2" && flatpak run io.gitlab.news_flash.NewsFlash
 exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
 floating_modifier $mod
 font pango:FreeMono Bold 14

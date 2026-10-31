@@ -3,175 +3,329 @@
     <title>NewsFlash OPML export</title>
   </head>
   <body>
-    <outline text="The Digital Project Manager"
+    <outline text="À la une | FINAL FANTASY XIV : The Lodestone"
       type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCcgWl0Rda9bHhOJTcIy8XwQ"
-      htmlUrl="https://www.youtube.com/channel/UCcgWl0Rda9bHhOJTcIy8XwQ"
-      title="The Digital Project Manager" />
-    <outline text="Me, Myself and Die!"
+      xmlUrl="https://fr.finalfantasyxiv.com/lodestone/news/topics.xml"
+      htmlUrl="https://fr.finalfantasyxiv.com/lodestone/"
+      title="À la une | FINAL FANTASY XIV : The Lodestone" />
+    <outline text="The TTRPG Couch"
       type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCtiBzkVoYrugJkrpW7_75Ag"
-      htmlUrl="https://www.youtube.com/channel/UCtiBzkVoYrugJkrpW7_75Ag"
-      title="Me, Myself and Die!" />
-    <outline text="Ironsworn VF"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCi-cj0jQXEoxmMtLep4jMaw"
+      htmlUrl="https://www.youtube.com/channel/UCi-cj0jQXEoxmMtLep4jMaw"
+      title="The TTRPG Couch" />
+    <outline text="TRACKS - ARTE"
       type="rss"
-      xmlUrl="http://ironsworn.pbta.fr/feed/"
-      htmlUrl="http://ironsworn.pbta.fr/"
-      title="Ironsworn VF" />
-    <outline text="ITA - Imagine Ton Aventure"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC__Pj66OeDibNZNN__L913g"
+      htmlUrl="https://www.youtube.com/channel/UC__Pj66OeDibNZNN__L913g"
+      title="TRACKS - ARTE" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Agriculture et de la Souverainté Alimentaire--&gt;Direction départementale de la protection des populations (DDPP)--&gt;Direction départementale de la protection des populations de la Vienne (DDPP 86)"
       type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrm0_QmHbrNx4SJl0YNaRmg"
-      htmlUrl="https://www.youtube.com/channel/UCrm0_QmHbrNx4SJl0YNaRmg"
-      title="ITA - Imagine Ton Aventure" />
-    <outline text="Tomkin Press - Tomkin Press Blog"
-      type="rss"
-      xmlUrl="https://tomkinpress.com/blogs/news.atom"
-      htmlUrl="https://tomkinpress.com/blogs/news"
-      title="Tomkin Press - Tomkin Press Blog" />
-    <outline text="GuildWars2.com"
-      type="rss"
-      xmlUrl="https://www.guildwars2.com/fr/feed/"
-      htmlUrl="https://www.guildwars2.com/fr"
-      title="GuildWars2.com" />
-    <outline text="Ginny Di"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCe5KNXqT7970K8vkHb5BQ5Q"
-      htmlUrl="https://www.youtube.com/channel/UCe5KNXqT7970K8vkHb5BQ5Q"
-      title="Ginny Di" />
-    <outline text="Terada"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCalnBKLnFmYjrnHWQKR2s1A"
-      htmlUrl="https://www.youtube.com/channel/UCalnBKLnFmYjrnHWQKR2s1A"
-      title="Terada" />
-    <outline text="Joueur Du Grenier"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_yP2DpIgs5Y1uWC0T03Chw"
-      htmlUrl="https://www.youtube.com/channel/UC_yP2DpIgs5Y1uWC0T03Chw"
-      title="Joueur Du Grenier" />
-    <outline text="Mrhappy1227"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCALEd8FzfaUt-HBBZctO9cg"
-      htmlUrl="https://www.youtube.com/channel/UCALEd8FzfaUt-HBBZctO9cg"
-      title="Mrhappy1227" />
-    <outline text="Fat Giorno"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2eMwsqLsCm51P5LzuHyHgQ"
-      htmlUrl="https://www.youtube.com/channel/UC2eMwsqLsCm51P5LzuHyHgQ"
-      title="Fat Giorno" />
-    <outline text="FINAL FANTASY XIV"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCpx2BZg8ABgaDV50sGJtWAg"
-      htmlUrl="https://www.youtube.com/channel/UCpx2BZg8ABgaDV50sGJtWAg"
-      title="FINAL FANTASY XIV" />
-    <outline text="Traversy Media"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA"
-      htmlUrl="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"
-      title="Traversy Media" />
-    <outline text="frenchspin.fr"
-      type="rss"
-      xmlUrl="http://frenchspin.fr/feed/"
-      htmlUrl="https://frenchspin.fr/"
-      title="frenchspin.fr" />
-    <outline text="Rotten Tomatoes Trailers"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCi8e0iOVk1fEOogdfu4YgfA"
-      htmlUrl="https://www.youtube.com/channel/UCi8e0iOVk1fEOogdfu4YgfA"
-      title="Rotten Tomatoes Trailers" />
-    <outline text="FINAL FANTASY XIV : Blog officiel"
-      type="rss"
-      xmlUrl="https://fr.finalfantasyxiv.com/blog/atom.xml"
-      htmlUrl="https://fr.finalfantasyxiv.com/blog/"
-      title="FINAL FANTASY XIV : Blog officiel" />
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=15037"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=15037"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Agriculture et de la Souverainté Alimentaire--&gt;Direction départementale de la protection des populations (DDPP)--&gt;Direction départementale de la protection des populations de la Vienne (DDPP 86)" />
     <outline text="Flux général Developpez.com"
       type="rss"
       xmlUrl="https://www.developpez.com/index/rss"
       htmlUrl="https://www.developpez.com/index/rss"
       title="Flux général Developpez.com" />
-    <outline text="NoLimitSecu"
-      type="rss"
-      xmlUrl="https://www.nolimitsecu.fr/feed/"
-      htmlUrl="https://www.nolimitsecu.fr/"
-      title="NoLimitSecu" />
-    <outline text="Star Citizen"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCTeLqJq1mXUX5WWoNXLmOIA"
-      htmlUrl="https://www.youtube.com/channel/UCTeLqJq1mXUX5WWoNXLmOIA"
-      title="Star Citizen" />
-    <outline text="Grafikart.fr"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCj_iGliGCkLcHSZ8eqVNPDQ"
-      htmlUrl="https://www.youtube.com/channel/UCj_iGliGCkLcHSZ8eqVNPDQ"
-      title="Grafikart.fr" />
-    <outline text="Karambolage en français - ARTE"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCh5JF-qt2ZXg8acejcJ15Xw"
-      htmlUrl="https://www.youtube.com/channel/UCh5JF-qt2ZXg8acejcJ15Xw"
-      title="Karambolage en français - ARTE" />
-    <outline text="ArjanCodes"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVhQ2NnY5Rskt6UjCUkJ_DA"
-      htmlUrl="https://www.youtube.com/channel/UCVhQ2NnY5Rskt6UjCUkJ_DA"
-      title="ArjanCodes" />
-    <outline text="The PrimeTime"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ"
-      htmlUrl="https://www.youtube.com/channel/UCUyeluBRhGPCW4rPe_UvBZQ"
-      title="The PrimeTime" />
-    <outline text="Clément Viktorovitch"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCQcas4dulTzVUrAo0fMfWWg"
-      htmlUrl="https://www.youtube.com/channel/UCQcas4dulTzVUrAo0fMfWWg"
-      title="Clément Viktorovitch" />
-    <outline text="Cider Spider"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC1dRqPWIjPwcONdV2L1-mrw"
-      htmlUrl="https://www.youtube.com/channel/UC1dRqPWIjPwcONdV2L1-mrw"
-      title="Cider Spider" />
-    <outline text="ZeratoR"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZ_oIYI9ZNpOfWbpZxWNuRQ"
-      htmlUrl="https://www.youtube.com/channel/UCZ_oIYI9ZNpOfWbpZxWNuRQ"
-      title="ZeratoR" />
-    <outline text="Bazar du Grenier"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCCMxHHciWRBBouzk-PGzmtQ"
-      htmlUrl="https://www.youtube.com/channel/UCCMxHHciWRBBouzk-PGzmtQ"
-      title="Bazar du Grenier" />
-    <outline text="bashbunni"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9H0HzpKf5JlazkADWnW1Jw"
-      htmlUrl="https://www.youtube.com/channel/UC9H0HzpKf5JlazkADWnW1Jw"
-      title="bashbunni" />
-    <outline text="Best Of Antoine Daniel"
-      type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBuee5JCBlI_VuKjxmqtyUA"
-      htmlUrl="https://www.youtube.com/channel/UCBuee5JCBlI_VuKjxmqtyUA"
-      title="Best Of Antoine Daniel" />
     <outline text="Le Dessous des Cartes - ARTE"
       type="rss"
       xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHGMBrXUzClgjEzBMei-Jdw"
       htmlUrl="https://www.youtube.com/channel/UCHGMBrXUzClgjEzBMei-Jdw"
       title="Le Dessous des Cartes - ARTE" />
-    <outline text="Best Of du Grenier"
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères Economiques et Financiers--&gt;Direction régionale de l&apos;économie, de l&apos;emploi, du travail et des solidarités (DREETS)--&gt;Direction régionale de l&apos;économie, de l&apos;emploi, du travail et des solidarités de Nouvelle-Aquitaine (DREETS NOUVELLE AQUITAINE)"
       type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClK4fpmIAz8V1BVafysM2WA"
-      htmlUrl="https://www.youtube.com/channel/UClK4fpmIAz8V1BVafysM2WA"
-      title="Best Of du Grenier" />
-    <outline text="Savun"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=15003"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=15003"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères Economiques et Financiers--&gt;Direction régionale de l&apos;économie, de l&apos;emploi, du travail et des solidarités (DREETS)--&gt;Direction régionale de l&apos;économie, de l&apos;emploi, du travail et des solidarités de Nouvelle-Aquitaine (DREETS NOUVELLE AQUITAINE)" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Éducation nationale--&gt;Rectorats - Vice-Rectorats - Services de l&apos;éducation--&gt;Rectorat de Poitiers"
       type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCmCLlnZfSe93AoSGc03l7eA"
-      htmlUrl="https://www.youtube.com/channel/UCmCLlnZfSe93AoSGc03l7eA"
-      title="Savun" />
-    <outline text="ARTE"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=692"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=692"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Éducation nationale--&gt;Rectorats - Vice-Rectorats - Services de l&apos;éducation--&gt;Rectorat de Poitiers" />
+    <outline text="bashbunni"
       type="rss"
-      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwI-JbGNsojunnHbFAc0M4Q"
-      htmlUrl="https://www.youtube.com/channel/UCwI-JbGNsojunnHbFAc0M4Q"
-      title="ARTE" />
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9H0HzpKf5JlazkADWnW1Jw"
+      htmlUrl="https://www.youtube.com/channel/UC9H0HzpKf5JlazkADWnW1Jw"
+      title="bashbunni" />
+    <outline text="Fat Giorno"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2eMwsqLsCm51P5LzuHyHgQ"
+      htmlUrl="https://www.youtube.com/channel/UC2eMwsqLsCm51P5LzuHyHgQ"
+      title="Fat Giorno" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Intérieur--&gt;Région de gendarmerie de Nouvelle-Aquitaine"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=13432"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=13432"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Intérieur--&gt;Région de gendarmerie de Nouvelle-Aquitaine" />
+    <outline text="Rotten Tomatoes Trailers"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCi8e0iOVk1fEOogdfu4YgfA"
+      htmlUrl="https://www.youtube.com/channel/UCi8e0iOVk1fEOogdfu4YgfA"
+      title="Rotten Tomatoes Trailers" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères Economiques et Financiers--&gt;Direction générale des Finances publiques (DGFiP)--&gt;Délégations--&gt;DDG Nouvelle-Aquitaine"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12733"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12733"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères Economiques et Financiers--&gt;Direction générale des Finances publiques (DGFiP)--&gt;Délégations--&gt;DDG Nouvelle-Aquitaine" />
+    <outline text="frenchspin.fr"
+      type="rss"
+      xmlUrl="http://frenchspin.fr/feed/"
+      htmlUrl="https://frenchspin.fr/"
+      title="frenchspin.fr" />
+    <outline text="Best Of Antoine Daniel"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBuee5JCBlI_VuKjxmqtyUA"
+      htmlUrl="https://www.youtube.com/channel/UCBuee5JCBlI_VuKjxmqtyUA"
+      title="Best Of Antoine Daniel" />
+    <outline text="FINAL FANTASY XIV : Blog officiel"
+      type="rss"
+      xmlUrl="https://fr.finalfantasyxiv.com/blog/atom.xml"
+      htmlUrl="https://fr.finalfantasyxiv.com/blog/"
+      title="FINAL FANTASY XIV : Blog officiel" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Éducation nationale--&gt;Réseau Canopé--&gt;Réseau Canopé - Direction territoriale Nouvelle-Aquitaine"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=873"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=873"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Éducation nationale--&gt;Réseau Canopé--&gt;Réseau Canopé - Direction territoriale Nouvelle-Aquitaine" />
+    <outline text="Terada"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCalnBKLnFmYjrnHWQKR2s1A"
+      htmlUrl="https://www.youtube.com/channel/UCalnBKLnFmYjrnHWQKR2s1A"
+      title="Terada" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères Economiques et Financiers--&gt;Direction départementale de la protection des populations (DDPP)--&gt;Direction départementale de la protection des populations de la Vienne (DDPP 86)"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12216"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12216"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères Economiques et Financiers--&gt;Direction départementale de la protection des populations (DDPP)--&gt;Direction départementale de la protection des populations de la Vienne (DDPP 86)" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Éducation nationale--&gt;Réseau Canopé"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=578"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=578"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Éducation nationale--&gt;Réseau Canopé" />
+    <outline text="Tomkin Press - Tomkin Press Blog"
+      type="rss"
+      xmlUrl="https://tomkinpress.com/blogs/news.atom"
+      htmlUrl="https://tomkinpress.com/blogs/news"
+      title="Tomkin Press - Tomkin Press Blog" />
     <outline text="TechLug.fr - Le LUG Lego Technic et Lego Star Wars francophone"
       type="rss"
       xmlUrl="https://www.techlug.fr/rss.xml"
       htmlUrl="http://www.techlug.fr/"
       title="TechLug.fr - Le LUG Lego Technic et Lego Star Wars francophone" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Agriculture et de la Souverainté Alimentaire--&gt;EPL--&gt;EPLEFPA de Vienne"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=14061"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=14061"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Agriculture et de la Souverainté Alimentaire--&gt;EPL--&gt;EPLEFPA de Vienne" />
+    <outline text="Joueur Du Grenier"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC_yP2DpIgs5Y1uWC0T03Chw"
+      htmlUrl="https://www.youtube.com/channel/UC_yP2DpIgs5Y1uWC0T03Chw"
+      title="Joueur Du Grenier" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères de la Transition écologique, de l&apos;Aménagement du territoire, des Transports, de la Ville et du Logement--&gt;Direction Départementale des Territoires (DDT)--&gt;Direction Départementale des Territoires de la Vienne (DDT 86)"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=508"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=508"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères de la Transition écologique, de l&apos;Aménagement du territoire, des Transports, de la Ville et du Logement--&gt;Direction Départementale des Territoires (DDT)--&gt;Direction Départementale des Territoires de la Vienne (DDT 86)" />
+    <outline text="Bazar du Grenier"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCCMxHHciWRBBouzk-PGzmtQ"
+      htmlUrl="https://www.youtube.com/channel/UCCMxHHciWRBBouzk-PGzmtQ"
+      title="Bazar du Grenier" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères de la Transition écologique, de l&apos;Aménagement du territoire, des Transports, de la Ville et du Logement--&gt; Directions Régionales de l&apos;Environnement, de l&apos;Aménagement et du Logement (DREAL, DRIEAT, DRIHL)"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=13786"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=13786"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères de la Transition écologique, de l&apos;Aménagement du territoire, des Transports, de la Ville et du Logement--&gt; Directions Régionales de l&apos;Environnement, de l&apos;Aménagement et du Logement (DREAL, DRIEAT, DRIHL)" />
+    <outline text="ITA - Imagine Ton Aventure"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrm0_QmHbrNx4SJl0YNaRmg"
+      htmlUrl="https://www.youtube.com/channel/UCrm0_QmHbrNx4SJl0YNaRmg"
+      title="ITA - Imagine Ton Aventure" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Enseignement Supérieur, de la Recherche et de l&apos;Espace--&gt;INSERM--&gt;INSERM - DR Nouvelle-Aquitaine"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=2629"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=2629"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Enseignement Supérieur, de la Recherche et de l&apos;Espace--&gt;INSERM--&gt;INSERM - DR Nouvelle-Aquitaine" />
+    <outline text="Ginny Di"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCe5KNXqT7970K8vkHb5BQ5Q"
+      htmlUrl="https://www.youtube.com/channel/UCe5KNXqT7970K8vkHb5BQ5Q"
+      title="Ginny Di" />
+    <outline text="Star Citizen"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCTeLqJq1mXUX5WWoNXLmOIA"
+      htmlUrl="https://www.youtube.com/channel/UCTeLqJq1mXUX5WWoNXLmOIA"
+      title="Star Citizen" />
+    <outline text="Traversy Media"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC29ju8bIPH5as8OGnQzwJyA"
+      htmlUrl="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"
+      title="Traversy Media" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Éducation nationale--&gt;Centre National d&apos;Enseignement à&#x00A0;Distance (CNED)"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=590"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=590"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Éducation nationale--&gt;Centre National d&apos;Enseignement à&#x00A0;Distance (CNED)" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères Economiques et Financiers--&gt;Direction départementale de l&apos;emploi, du travail et des solidarités (DDETS)--&gt;Direction départementale de l&apos;emploi, du travail et des solidarités de la Vienne (DDETS 86)"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=14951"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=14951"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères Economiques et Financiers--&gt;Direction départementale de l&apos;emploi, du travail et des solidarités (DDETS)--&gt;Direction départementale de l&apos;emploi, du travail et des solidarités de la Vienne (DDETS 86)" />
+    <outline text="FINAL FANTASY XIV"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCpx2BZg8ABgaDV50sGJtWAg"
+      htmlUrl="https://www.youtube.com/channel/UCpx2BZg8ABgaDV50sGJtWAg"
+      title="FINAL FANTASY XIV" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères Economiques et Financiers--&gt;Direction générale des Finances publiques (DGFiP)--&gt;Directions régionales et territoriales --&gt;DDFIP Vienne"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12662"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12662"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères Economiques et Financiers--&gt;Direction générale des Finances publiques (DGFiP)--&gt;Directions régionales et territoriales --&gt;DDFIP Vienne" />
+    <outline text="Cider Spider"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC1dRqPWIjPwcONdV2L1-mrw"
+      htmlUrl="https://www.youtube.com/channel/UC1dRqPWIjPwcONdV2L1-mrw"
+      title="Cider Spider" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Intérieur--&gt;Préfectures--&gt;Préfecture de la Vienne"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=2288"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=2288"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Intérieur--&gt;Préfectures--&gt;Préfecture de la Vienne" />
+    <outline text="Mrhappy1227"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCALEd8FzfaUt-HBBZctO9cg"
+      htmlUrl="https://www.youtube.com/channel/UCALEd8FzfaUt-HBBZctO9cg"
+      title="Mrhappy1227" />
+    <outline text="Ironsworn VF"
+      type="rss"
+      xmlUrl="http://ironsworn.pbta.fr/feed/"
+      htmlUrl="http://ironsworn.pbta.fr/"
+      title="Ironsworn VF" />
+    <outline text="ARTE"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwI-JbGNsojunnHbFAc0M4Q"
+      htmlUrl="https://www.youtube.com/channel/UCwI-JbGNsojunnHbFAc0M4Q"
+      title="ARTE" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Agriculture et de la Souverainté Alimentaire--&gt;Etablissements de l&apos;enseignement supérieur--&gt;Institut National de Recherche pour l&apos;Agriculture, l&apos;Alimentation et l&apos;Environnement (INRAE)--&gt;INRAE Centre Nouvelle-Aquitaine - Poitiers"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=2447"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=2447"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Agriculture et de la Souverainté Alimentaire--&gt;Etablissements de l&apos;enseignement supérieur--&gt;Institut National de Recherche pour l&apos;Agriculture, l&apos;Alimentation et l&apos;Environnement (INRAE)--&gt;INRAE Centre Nouvelle-Aquitaine - Poitiers" />
+    <outline text="NoLimitSecu"
+      type="rss"
+      xmlUrl="https://www.nolimitsecu.fr/feed/"
+      htmlUrl="https://www.nolimitsecu.fr/"
+      title="NoLimitSecu" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères Economiques et Financiers--&gt;Direction générale des Finances publiques (DGFiP)--&gt;Directions et Services à Compétences Nationales ou Spéciales--&gt;DIRCOFI--&gt;DIRCOFI Nouvelle-Aquitaine"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12707"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12707"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères Economiques et Financiers--&gt;Direction générale des Finances publiques (DGFiP)--&gt;Directions et Services à Compétences Nationales ou Spéciales--&gt;DIRCOFI--&gt;DIRCOFI Nouvelle-Aquitaine" />
+    <outline text="Me, Myself and Die!"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCtiBzkVoYrugJkrpW7_75Ag"
+      htmlUrl="https://www.youtube.com/channel/UCtiBzkVoYrugJkrpW7_75Ag"
+      title="Me, Myself and Die!" />
+    <outline text="Grafikart.fr"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCj_iGliGCkLcHSZ8eqVNPDQ"
+      htmlUrl="https://www.youtube.com/channel/UCj_iGliGCkLcHSZ8eqVNPDQ"
+      title="Grafikart.fr" />
+    <outline text="Best Of du Grenier"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClK4fpmIAz8V1BVafysM2WA"
+      htmlUrl="https://www.youtube.com/channel/UClK4fpmIAz8V1BVafysM2WA"
+      title="Best Of du Grenier" />
+    <outline text="ZeratoR"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZ_oIYI9ZNpOfWbpZxWNuRQ"
+      htmlUrl="https://www.youtube.com/channel/UCZ_oIYI9ZNpOfWbpZxWNuRQ"
+      title="ZeratoR" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Agriculture et de la Souverainté Alimentaire--&gt;Direction Départementale des Territoires (DDT)--&gt;Direction Départementale des Territoires de la Vienne (DDT 86)"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=14889"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=14889"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère de l&apos;Agriculture et de la Souverainté Alimentaire--&gt;Direction Départementale des Territoires (DDT)--&gt;Direction Départementale des Territoires de la Vienne (DDT 86)" />
+    <outline text="The PrimeTime"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ"
+      htmlUrl="https://www.youtube.com/channel/UCUyeluBRhGPCW4rPe_UvBZQ"
+      title="The PrimeTime" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Etablissements sociaux et médico-sociaux--&gt;Institut Départemental pour la protection de l&apos;Enfance et l&apos;accompagnement des Familles de la Vienne"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=1573"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=1573"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Etablissements sociaux et médico-sociaux--&gt;Institut Départemental pour la protection de l&apos;Enfance et l&apos;accompagnement des Familles de la Vienne" />
+    <outline text="GuildWars2.com"
+      type="rss"
+      xmlUrl="https://www.guildwars2.com/fr/feed/"
+      htmlUrl="https://www.guildwars2.com/fr"
+      title="GuildWars2.com" />
+    <outline text="Clément Viktorovitch"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCQcas4dulTzVUrAo0fMfWWg"
+      htmlUrl="https://www.youtube.com/channel/UCQcas4dulTzVUrAo0fMfWWg"
+      title="Clément Viktorovitch" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Département : Europe--&gt;France--&gt;Nouvelle Aquitaine--&gt;Vienne (86)"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_JobDepartment=323"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_JobDepartment=323"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Département : Europe--&gt;France--&gt;Nouvelle Aquitaine--&gt;Vienne (86)" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère du Travail, de la Santé et des Solidarités--&gt;Services déconcentrés--&gt;Direction départementale de l&apos;emploi, du travail et des solidarités (DDETS)--&gt;Direction départementale de l&apos;emploi, du travail et des solidarités de la Vienne (DDETS 86)"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12215"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12215"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministère du Travail, de la Santé et des Solidarités--&gt;Services déconcentrés--&gt;Direction départementale de l&apos;emploi, du travail et des solidarités (DDETS)--&gt;Direction départementale de l&apos;emploi, du travail et des solidarités de la Vienne (DDETS 86)" />
+    <outline text="ArjanCodes"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVhQ2NnY5Rskt6UjCUkJ_DA"
+      htmlUrl="https://www.youtube.com/channel/UCVhQ2NnY5Rskt6UjCUkJ_DA"
+      title="ArjanCodes" />
+    <outline text="Savun"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCmCLlnZfSe93AoSGc03l7eA"
+      htmlUrl="https://www.youtube.com/channel/UCmCLlnZfSe93AoSGc03l7eA"
+      title="Savun" />
+    <outline text="Karambolage en français - ARTE"
+      type="rss"
+      xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCh5JF-qt2ZXg8acejcJ15Xw"
+      htmlUrl="https://www.youtube.com/channel/UCh5JF-qt2ZXg8acejcJ15Xw"
+      title="Karambolage en français - ARTE" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Centres Hospitaliers--&gt;Centre Hospitalier Lucien Hussel de Vienne"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12040"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=12040"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Centres Hospitaliers--&gt;Centre Hospitalier Lucien Hussel de Vienne" />
+    <outline
+      text="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères de la Transition écologique, de l&apos;Aménagement du territoire, des Transports, de la Ville et du Logement--&gt; Directions Régionales de l&apos;Environnement, de l&apos;Aménagement et du Logement (DREAL, DRIEAT, DRIHL)--&gt;Direction Régionale de l&apos;Environnement, de l&apos;Aménagement et du Logement Nouvelle-Aquitaine (DREAL Nouvelle-Aquitaine)"
+      type="rss"
+      xmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=499"
+      htmlUrl="https://place-ep-recrute.talent-soft.com/handlers/offerRss.ashx?LCID=1036&amp;Rss_Entity=499"
+      title="Export RSS des offres - Seulement les offres à la une : Non / Organisme de rattachement : Ministères de la Transition écologique, de l&apos;Aménagement du territoire, des Transports, de la Ville et du Logement--&gt; Directions Régionales de l&apos;Environnement, de l&apos;Aménagement et du Logement (DREAL, DRIEAT, DRIHL)--&gt;Direction Régionale de l&apos;Environnement, de l&apos;Aménagement et du Logement Nouvelle-Aquitaine (DREAL Nouvelle-Aquitaine)" />
   </body>
 </opml>
