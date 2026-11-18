@@ -123,6 +123,7 @@ alias fr="ranger"
 alias fbulk="python3 ~/Documents/utils/bulkrename.py"
 alias fupg="sudo apt update && sudo apt dist-upgrade && flatpak update"
 alias vi="nvim -p"
+alias chromium="flatpak run org.chromium.Chromium"
 alias pvenv="python3 -m venv .venv && source .venv/bin/activate"
 
 export EDITOR='nvim -p'

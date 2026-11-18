@@ -24,18 +24,26 @@ systemctl daemon-reload
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install --assumeyes fedora com.github.tchx84.Flatseal
 flatpak install --assumeyes fedora org.keepassxc.KeePassXC
-flatpak install --assumeyes flathub org.chromium.Chromium
 flatpak install --assumeyes flathub com.github.unrud.VideoDownloader
-flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
 flatpak install --assumeyes flathub com.google.Chrome
+flatpak install --assumeyes flathub io.gitlab.news_flash.NewsFlash
 flatpak install --assumeyes flathub md.obsidian.Obsidian
+flatpak install --assumeyes flathub org.chromium.Chromium
+flatpak install --assumeyes ai.opencode.opencode
+flatpak install --assumeyes com.github.jeromerobert.pdfarranger
+flatpak install --assumeyes com.jgraph.drawio.desktop
+flatpak install --assumeyes io.gitlab.news_flash.NewsFlash
+flatpak install --assumeyes md.obsidian.Obsidian
+flatpak install --assumeyes org.chromium.Chromium
+flatpak install --assumeyes org.chromium.Chromium.Codecs
 flatpak install --assumeyes org.freedesktop.Platform.GStreamer.gstreamer-vaapi
-flatpak install --assumeyes org.freedesktop.Platform.ffmpeg-full
 flatpak install --assumeyes org.freedesktop.Platform.codecs-extra
+flatpak install --assumeyes org.freedesktop.Platform.ffmpeg-full
+flatpak install --assumeyes org.gimp.GIMP
 
 rpm-ostree upgrade
 rpm-ostree install --assumeyes https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-rpm-ostree install --assumeyes neovim ranger mpv git i3 rofi
+rpm-ostree install --assumeyes neovim ranger mpv
 rpm-ostree override remove ffmpeg-free libavcodec-free libavdevice-free libavfilter-free libavformat-free libavutil-free libswresample-free libswscale-free --install ffmpeg
 #Si tu veux seulement la lecture vidéo dans Firefox et les applications Flatpak, il est souvent préférable de conserver `ffmpeg-free` et d’ajouter le codec RPM Fusion :
 #rpm-ostree install libavcodec-freeworld
