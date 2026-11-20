@@ -37,3 +37,22 @@ Tes mots de passe enregistrés ne seront plus chiffrés sur le disque, mais tu n
 - Entre ton mot de passe actuel.
 - Laisse le champ du nouveau mot de passe totalement vide et clique sur Continuer.
 - Confirme le message d'avertissement concernant le stockage non chiffré.
+
+## sway
+
+1. Ouvre le fichier `~/.config/sway/config`.
+2. Ajoute cette ligne (ou modifie le bloc clavier s’il existe déjà) :
+
+```conf
+input type:keyboard {
+    xkb_layout fr
+}
+```
+
+3. Recharge Sway avec `Mod` + `Shift` + `C` — généralement `Mod` est la touche `Super`/Windows.
+
+Pour l’appliquer immédiatement sans recharger, lance :
+
+```bash
+swaymsg 'input type:keyboard xkb_layout fr'
+```
